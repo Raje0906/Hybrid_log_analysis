@@ -1,0 +1,45 @@
+# ── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+backend/venv/
+venv/
+.env
+*.env
+
+# ── Node / Frontend ──────────────────────────────
+frontend/node_modules/
+frontend/dist/
+node_modules/
+.npm
+
+# ── Model weights (too large for GitHub) ─────────
+# The fine-tuned adapter files — store on HuggingFace Hub instead
+llm-log-finetuned*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# ── HuggingFace cache ────────────────────────────
+.cache/
+huggingface/
+
+# ── OS & Editor ───────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
